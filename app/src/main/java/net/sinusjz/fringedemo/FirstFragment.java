@@ -16,6 +16,8 @@ import com.google.android.material.button.MaterialButton;
 
 public class FirstFragment extends Fragment {
 
+    // Hello
+
     ImageView lamp;
     AlphaAnimation animation;
     MaterialButton animationFragmentButton;
