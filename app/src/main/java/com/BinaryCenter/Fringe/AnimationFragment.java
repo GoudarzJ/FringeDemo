@@ -8,7 +8,6 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.DecelerateInterpolator;
-import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
@@ -16,11 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
-import com.google.android.material.button.MaterialButton;
-
-import com.BinaryCenter.Fringe.FirstFragment;
-import com.BinaryCenter.Fringe.R;
 
 public class AnimationFragment extends Fragment {
 
@@ -35,7 +29,7 @@ public class AnimationFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Fragment homeFragment = new FirstFragment();
+        Fragment homeFragment = new HomeFragment();
         FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
         transaction.setCustomAnimations(R.anim.slide_in_reverse, R.anim.slide_out_reverse);
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
-    tools:context=".FirstFragment">
+    tools:context=".HomeFragment">
 
     <TextView
         android:id="@+id/p2_title"

@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frameLayout"
-        android:name="com.BinaryCenter.Fringe.FirstFragment"
+        android:name="com.BinaryCenter.Fringe.HomeFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/dark_blue"

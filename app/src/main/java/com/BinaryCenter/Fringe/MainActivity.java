@@ -1,19 +1,9 @@
 package com.BinaryCenter.Fringe;
 
 import android.os.Bundle;
-import android.view.View;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Interpolator;
-import android.view.animation.LinearInterpolator;
-import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
-import com.BinaryCenter.Fringe.FirstFragment;
-import com.BinaryCenter.Fringe.R;
-import com.BinaryCenter.Fringe.SecondFragment;
-import com.BinaryCenter.Fringe.ThirdFragment;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
 import me.ibrahimsn.lib.SmoothBottomBar;
@@ -26,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize the fragments
-        Fragment firstFragment = new FirstFragment();
+        Fragment firstFragment = new HomeFragment();
         Fragment secondFragment = new SecondFragment();
         Fragment thirdFragment = new ThirdFragment();
 

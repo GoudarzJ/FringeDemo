@@ -14,10 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.button.MaterialButton;
 
-import com.BinaryCenter.Fringe.AnimationFragment;
-import com.BinaryCenter.Fringe.R;
-
-public class FirstFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
     // Hello
 
@@ -30,7 +27,7 @@ public class FirstFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
     @Override
