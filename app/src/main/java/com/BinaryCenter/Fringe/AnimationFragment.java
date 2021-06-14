@@ -29,6 +29,8 @@ public class AnimationFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        // AAA
+
         Fragment homeFragment = new HomeFragment();
         FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
         transaction.setCustomAnimations(R.anim.slide_in_reverse, R.anim.slide_out_reverse);
