@@ -1,4 +1,4 @@
-package net.sinusjz.fringedemo;
+package com.BinaryCenter.Fringe;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.button.MaterialButton;
+
+import com.BinaryCenter.Fringe.AnimationFragment;
+import com.BinaryCenter.Fringe.R;
 
 public class FirstFragment extends Fragment {
 

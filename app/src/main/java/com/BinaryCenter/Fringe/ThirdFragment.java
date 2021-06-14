@@ -1,4 +1,4 @@
-package net.sinusjz.fringedemo;
+package com.BinaryCenter.Fringe;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+
+import com.BinaryCenter.Fringe.R;
 
 public class ThirdFragment extends Fragment {
 

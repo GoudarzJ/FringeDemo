@@ -1,4 +1,4 @@
-package net.sinusjz.fringedemo;
+package com.BinaryCenter.Fringe;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +9,11 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import com.BinaryCenter.Fringe.FirstFragment;
+import com.BinaryCenter.Fringe.R;
+import com.BinaryCenter.Fringe.SecondFragment;
+import com.BinaryCenter.Fringe.ThirdFragment;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
 import me.ibrahimsn.lib.SmoothBottomBar;
