@@ -27,6 +27,7 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         Fragment page2Fragment = new Page2Fragment();
+        Fragment page3Fragment = new Page3Fragment();
         FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
 
 
@@ -46,7 +47,7 @@ public class SecondFragment extends Fragment {
 
                 transaction.setCustomAnimations(R.anim.slide_in, R.anim.slide_out);
                 transaction.addToBackStack(null);
-                transaction.replace(R.id.frameLayout, page2Fragment);
+                transaction.replace(R.id.frameLayout, page3Fragment);
                 transaction.commit();
             }
         });
