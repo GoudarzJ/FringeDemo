@@ -1,17 +1,23 @@
+<!--app:showAsAction="ifRoom" /> -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_home"
         android:enabled="true"
         android:icon="@drawable/ic_home_24"
-        android:title="@string/fragment_first"/>
+        android:title="@string/fragment_home"/>
     <item
         android:id="@+id/nav_projects"
         android:enabled="true"
-        android:icon="@drawable/ic_folder_24"
+        android:icon="@drawable/ic_projects_24"
         android:title="@string/fragment_second"/>
     <item
         android:id="@+id/nav_share"
         android:enabled="true"
         android:icon="@drawable/ic_share_24"
         android:title="@string/fragment_third"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile_icon_24"
+        android:title="@string/fragment_profile"/>
 </menu>
